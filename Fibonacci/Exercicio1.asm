@@ -57,7 +57,7 @@ fibonacci:
     li $t1, 1          
     move $t2, $a0      
     addi $t2, $t2, 1	
-    li $t3, 2          
+    li $t3, 2
 
 fib_loop:
     add $t4, $t0, $t1  
@@ -67,4 +67,4 @@ fib_loop:
     bne $t3, $t2, fib_loop  
 
     move $v0, $t1      
-    jr $ra            
+    jr $ra
