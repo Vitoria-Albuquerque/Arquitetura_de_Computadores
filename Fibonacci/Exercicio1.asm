@@ -1,13 +1,13 @@
-// Implementação de função para determinar o n-ésimo termo da Sequência de Fibonacci;
-// Use a função implementada em no item anterior para determinar o 30° número de Fibonacci;
-// Implementação de função para determinar a razão áurea ϕ;
-// Use a função implementada acima para determinar ϕ usando F41 e F40;
+# Implementação de função para determinar o n-ésimo termo da Sequência de Fibonacci;
+# Use a função implementada em no item anterior para determinar o 30° número de Fibonacci;
+# Implementação de função para determinar a razão áurea ϕ;
+# Use a função implementada acima para determinar ϕ usando F41 e F40;
 
 
-// O valor do 30° termo da Série de Fibonacci deve estar armazenado no registrador $s1;
-// O valor do 41° termo da Série de Fibonacci deve estar em $s2;
-// O valor do 40° termo da Série de Fibonacci deve estar em $s3;
-// O valor da razão áurea ϕ (phi) deve  estar em $f0;
+# O valor do 30° termo da Série de Fibonacci deve estar armazenado no registrador $s1;
+# O valor do 41° termo da Série de Fibonacci deve estar em $s2;
+# O valor do 40° termo da Série de Fibonacci deve estar em $s3;
+# O valor da razão áurea ϕ (phi) deve  estar em $f0;
 
 .data
 msg_fib: .asciiz "O 30° termo da Série de Fibonacci é: "
